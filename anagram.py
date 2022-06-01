@@ -8,10 +8,7 @@ def find_anagrams():
     if type(word1) == str:
         word2 = input("Enter another word: ")
         if type(word2) == str:
-            if(sorted(word1)== sorted(word2)):
-                print("True.")
-            else:
-                print("False.")
+            print(sorted(word1)== sorted(word2)) 
                     
         else:
             print("This is not a word")
@@ -21,3 +18,5 @@ def find_anagrams():
 
 
 find_anagrams()
+
+

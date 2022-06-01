@@ -33,3 +33,10 @@ print(Bob.change_name("Peter"))
 print(Bob.change_age(34))
 print(Bob.add_track("UI/UX"))
 print(Bob.get_score())
+
+
+
+
+
+
+
